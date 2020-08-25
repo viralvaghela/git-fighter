@@ -33,7 +33,7 @@ class _WinnerState extends State<Winner> {
 
   void getProfileData() async {
     var response = await http.get("https://api.github.com/users/$winner");
-    var jsonData = jsonDecode(response.body);
+    var jsonData = await jsonDecode(response.body);
     setState(() {
       winnerData = WinnerData.fromJson(jsonData);
 
@@ -45,7 +45,8 @@ class _WinnerState extends State<Winner> {
  /* return Container(color: Colors.white,);*/
     return Scaffold(
       appBar: AppBar(
-        title: Text("🥇  $winner 🥇 "),
+
+        title:Text("🥇 Winner is $winner 🥇 "),
         actions: [
           Padding(
               padding: EdgeInsets.only(right: 15),
