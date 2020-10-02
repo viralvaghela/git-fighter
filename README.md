@@ -9,9 +9,10 @@ Git Fighter uses GitHub API for comparing the users data
 
 This project has been built using the [Flutter](https://flutter.io/) framework, which allows to build an app for mobile, desktop & web, from a single codebase.
 
-|  ![1](Screenshots/1.png)     |  ![1](Screenshots/2.png)     |
-| ---- | ---- |
-| ![1](Screenshots/3.png) | ![1](Screenshots/4.png)|
+| ![1](Screenshots/1.png)    |  ![1](Screenshots/2.png)   | ![1](Screenshots/3.png)    |
+|:-:|:-:|:-:|
+|  ![1](Screenshots/4.png)   |  ![1](Screenshots/5.png)   |  ![1](Screenshots/6.png)   |
+
 
 ## Supported Platforms
 
